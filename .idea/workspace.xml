@@ -7,14 +7,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8baa6fc6-ffa0-4a7e-9eff-ca15ee1dc181" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/Skill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/result/SkillPageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/SkillDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/impl/SkillDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/SkillService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/impl/SkillServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/servlet/SkillServlet.java" afterDir="false" />
+    <list default="true" id="8baa6fc6-ffa0-4a7e-9eff-ca15ee1dc181" name="Default Changelist" comment="added skill">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/Award.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/result/AwardPageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/AwardDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/impl/AwardDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/AwardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/impl/AwardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/servlet/AwardServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/resume.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/resume.war" afterDir="false" />
     </list>
@@ -78,7 +78,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.55">
+    <configuration name="DateBean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube.bean.base.DateBean" />
+      <module name="resume" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube.bean.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 8.5.55" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.55" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -152,6 +165,11 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DateBean" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -164,7 +182,8 @@
       <option name="presentableId" value="Default" />
       <updated>1718922664077</updated>
       <workItem from="1718922665293" duration="8657000" />
-      <workItem from="1719344072484" duration="4875000" />
+      <workItem from="1719344072484" duration="11683000" />
+      <workItem from="1719517966768" duration="790000" />
     </task>
     <task id="LOCAL-00001" summary="added education">
       <created>1719352645897</created>
@@ -173,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719352645897</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added skill">
+      <created>1719353851231</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719353851231</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +210,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -192,6 +220,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added education" />
-    <option name="LAST_COMMIT_MESSAGE" value="added education" />
+    <MESSAGE value="added skill" />
+    <option name="LAST_COMMIT_MESSAGE" value="added skill" />
   </component>
 </project>
