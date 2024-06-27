@@ -7,16 +7,216 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8baa6fc6-ffa0-4a7e-9eff-ca15ee1dc181" name="Default Changelist" comment="added skill">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/Award.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/result/AwardPageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/AwardDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/impl/AwardDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/AwardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/impl/AwardServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/servlet/AwardServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resume.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/resume.war" afterDir="false" />
+    <list default="true" id="8baa6fc6-ffa0-4a7e-9eff-ca15ee1dc181" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/result/CompanyPageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/CompanyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/impl/CompanyDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/CompanyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/impl/CompanyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/servlet/CompanyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/bean/Website.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/bean/base/Bean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/bean/base/DateBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/bean/result/PageResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/bean/result/WebsitePageResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/beans/annotation/SQLColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/beans/annotation/SQLSaveIgnore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/beans/bean/SQLBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/beans/util/Beans.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/beans/util/Sqls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/beans/util/Strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/dao/BaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/dao/WebsiteDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/dao/impl/BaseDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/dao/impl/WebsiteDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/listener/MainListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/service/BaseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/service/WebsiteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/service/impl/BaseServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/service/impl/WebsiteServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/servlet/BaseServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/servlet/WebsiteServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/util/Strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/util/Times.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/util/Uploads.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/bytetube/util/Uris.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kaptcha.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resume.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/bean/Website.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/bean/base/Bean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/bean/base/DateBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/bean/result/PageResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/bean/result/WebsitePageResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/beans/annotation/SQLColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/beans/annotation/SQLSaveIgnore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/beans/bean/SQLBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/beans/util/Beans.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/beans/util/Sqls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/beans/util/Strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/dao/BaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/dao/WebsiteDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/dao/impl/BaseDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/dao/impl/WebsiteDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/listener/MainListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/service/BaseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/service/WebsiteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/service/impl/BaseServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/service/impl/WebsiteServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/servlet/BaseServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/servlet/WebsiteServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/util/Strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/util/Times.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/util/Uploads.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/ca/bytetube/util/Uris.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/kaptcha.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/classes/resume.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/commons-beanutils-1.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/commons-fileupload-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/druid-1.1.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/filters-2.0.235-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/jackson-annotations-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/jackson-core-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/jackson-databind-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/kaptcha-2.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/mysql-connector-java-5.1.49.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/spring-beans-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/spring-core-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/spring-jcl-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/spring-jdbc-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/lib/spring-tx-5.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/201.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/404.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/500.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/admin/award.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/admin/common/foot.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/admin/common/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/admin/common/nav.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/admin/company.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/admin/contact.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/admin/education.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/admin/experience.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/admin/password.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/admin/project.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/admin/skill.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/admin/user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/admin/website.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/front/common/foot.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/front/common/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/front/common/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/front/common/nav.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/front/contact.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/front/education.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/front/experience.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/front/project.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/front/user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/admin/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/admin/css/material-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/admin/css/material-icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/admin/css/materialize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/admin/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/admin/css/theme-blue.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/admin/img/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/admin/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/admin/img/noimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/admin/js/default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/admin/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/css/icmoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/css/plugins.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/font/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/font/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/font/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/avatar/avatar-108x108-01-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/avatar/avatar-108x108-02-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/avatar/avatar-116x116-default-2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/avatar/avatar-195x195.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/avatar/avatar-390x390-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/avatar/avatar-42x42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/avatar/avatar-54x54-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/avatar/avatar-54x54-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/avatar/avatar-58x58-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/avatar/avatar-58x58-default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/avatar/avatar-84x84-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/awards/award00.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/awards/award01.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/experience/google.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/experience/meta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/experience/ms.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/project/prj-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/project/prj-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/project/prj-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/project/prj-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/project/prj-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/project/prj-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/img/project/prj-rel-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/js/modernizr-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/js/plugins.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/front/js/theme.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/img/captcha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/JavaScript-MD5/md5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/animate-css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/bootstrap-fileinput/bootstrap-fileinput.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/bootstrap-fileinput/bootstrap-fileinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/bootstrap-notify/bootstrap-notify.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/bootstrap-tagsinput/bootstrap-tagsinput.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/bootstrap-tagsinput/bootstrap-tagsinput.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/bootstrap/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/bootstrap/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/jquery-validation/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/jquery-validation/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/jquery-validation/messages_zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/node-waves/waves.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/node-waves/waves.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/node-waves/waves.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/node-waves/waves.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/node-waves/waves.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/asset/plugin/sweetalert/sweetalert.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/admin/award.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/admin/company.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/admin/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/admin/education.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/admin/experience.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/admin/password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/admin/project.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/admin/skill.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/admin/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/admin/website.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/front/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/front/education.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/front/experience.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/front/project.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/front/temp/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/front/temp/portfolio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/front/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/page/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ca/bytetube/bean/Inter1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ca/bytetube/bean/Inter2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ca/bytetube/bean/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ca/bytetube/bean/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ca/bytetube/util/StringsTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +383,7 @@
       <updated>1718922664077</updated>
       <workItem from="1718922665293" duration="8657000" />
       <workItem from="1719344072484" duration="11683000" />
-      <workItem from="1719517966768" duration="790000" />
+      <workItem from="1719517966768" duration="1044000" />
     </task>
     <task id="LOCAL-00001" summary="added education">
       <created>1719352645897</created>
@@ -199,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719353851231</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added award">
+      <created>1719518920252</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719518920252</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +428,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added education" />
     <MESSAGE value="added skill" />
-    <option name="LAST_COMMIT_MESSAGE" value="added skill" />
+    <MESSAGE value="added award" />
+    <option name="LAST_COMMIT_MESSAGE" value="added award" />
   </component>
 </project>
