@@ -8,13 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8baa6fc6-ffa0-4a7e-9eff-ca15ee1dc181" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/Experience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/result/ExperiencePageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/ExperienceDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/impl/ExperienceDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/ExperienceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/impl/ExperienceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/servlet/ExperienceServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/result/KeywordPageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/result/UserPageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/resume.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/resume.war" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +57,7 @@
       <recent name="ca.bytetube.service.impl" />
       <recent name="ca.bytetube.service" />
       <recent name="ca.bytetube.dao.impl" />
-      <recent name="ca.bytetube.dao" />
+      <recent name="ca.bytetube.bean.result" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/result" />
@@ -182,7 +180,7 @@
       <updated>1718922664077</updated>
       <workItem from="1718922665293" duration="8657000" />
       <workItem from="1719344072484" duration="11683000" />
-      <workItem from="1719517966768" duration="1288000" />
+      <workItem from="1719517966768" duration="5457000" />
     </task>
     <task id="LOCAL-00001" summary="added education">
       <created>1719352645897</created>
@@ -212,7 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1719519111785</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added experience">
+      <created>1719519299223</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719519299223</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added project">
+      <created>1719519454484</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719519454484</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +248,8 @@
     <MESSAGE value="added skill" />
     <MESSAGE value="added award" />
     <MESSAGE value="added company" />
-    <option name="LAST_COMMIT_MESSAGE" value="added company" />
+    <MESSAGE value="added experience" />
+    <MESSAGE value="added project" />
+    <option name="LAST_COMMIT_MESSAGE" value="added project" />
   </component>
 </project>
