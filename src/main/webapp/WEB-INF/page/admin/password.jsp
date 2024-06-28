@@ -30,7 +30,7 @@
                                         <div class="form-line">
                                             <input type="password" id="oldPassword" name="oldPassword" maxlength="20"
                                                    class="form-control"
-                                                   placeholder="oldPassword"
+                                                   placeholder="OldPassword"
                                                    required>
                                         </div>
                                     </div>
@@ -46,7 +46,7 @@
                                         <div class="form-line">
                                             <input type="password" id="password" name="password" maxlength="20"
                                                    class="form-control"
-                                                   placeholder="newPassword"
+                                                   placeholder="NewPassword"
                                                    required>
                                         </div>
                                     </div>
@@ -55,7 +55,7 @@
 
                             <div class="row">
                                 <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3 form-control-label">
-                                    <label for="confirm">confirm</label>
+                                    <label for="confirm">confirm NewPassword</label>
                                 </div>
                                 <div class="col-lg-10 col-md-10 col-sm-9 col-xs-9">
                                     <div class="form-group">

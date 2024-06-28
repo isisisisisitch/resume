@@ -9,11 +9,16 @@
   <component name="ChangeListManager">
     <list default="true" id="8baa6fc6-ffa0-4a7e-9eff-ca15ee1dc181" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/result/KeywordPageResult.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/result/UserPageResult.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/bytetube/servlet/UserServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/admin/password.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/admin/password.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/resume.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/resume.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resume/WEB-INF/page/admin/password.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/resume/WEB-INF/page/admin/password.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,11 +58,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ca.bytetube.servlet" />
       <recent name="ca.bytetube.service.impl" />
       <recent name="ca.bytetube.service" />
       <recent name="ca.bytetube.dao.impl" />
-      <recent name="ca.bytetube.bean.result" />
+      <recent name="ca.bytetube.dao" />
+      <recent name="ca.bytetube.servlet" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/ca/bytetube/bean/result" />
@@ -180,7 +185,7 @@
       <updated>1718922664077</updated>
       <workItem from="1718922665293" duration="8657000" />
       <workItem from="1719344072484" duration="11683000" />
-      <workItem from="1719517966768" duration="5457000" />
+      <workItem from="1719517966768" duration="14723000" />
     </task>
     <task id="LOCAL-00001" summary="added education">
       <created>1719352645897</created>
@@ -224,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719519454484</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added KeywordPageResult">
+      <created>1719526748292</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719526748292</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +262,18 @@
     <MESSAGE value="added company" />
     <MESSAGE value="added experience" />
     <MESSAGE value="added project" />
-    <option name="LAST_COMMIT_MESSAGE" value="added project" />
+    <MESSAGE value="added KeywordPageResult" />
+    <option name="LAST_COMMIT_MESSAGE" value="added KeywordPageResult" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/admin/user.jsp</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
