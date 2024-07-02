@@ -2,9 +2,16 @@ package ca.bytetube.servlet;
 
 
 import ca.bytetube.bean.User;
+import ca.bytetube.bean.Website;
 import ca.bytetube.beans.util.Beans;
 import ca.bytetube.dao.UserDao;
 import ca.bytetube.dao.impl.UserDaoImpl;
+import ca.bytetube.service.AwardService;
+import ca.bytetube.service.SkillService;
+import ca.bytetube.service.WebsiteService;
+import ca.bytetube.service.impl.AwardServiceImpl;
+import ca.bytetube.service.impl.SkillServiceImpl;
+import ca.bytetube.service.impl.WebsiteServiceImpl;
 import ca.bytetube.util.Uploads;
 import com.google.code.kaptcha.impl.DefaultKaptcha;
 import com.google.code.kaptcha.util.Config;
@@ -17,12 +24,16 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.awt.image.BufferedImage;
 import java.io.InputStream;
+import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
 @WebServlet("/user/*")
 public class UserServlet extends BaseServlet {
     private static final UserDao service = new UserDaoImpl();
+    private static final WebsiteService websiteService = new WebsiteServiceImpl();
+    private static final SkillService skillService = new SkillServiceImpl();
+    private static final AwardService awardService = new AwardServiceImpl();
 
     public void login(HttpServletRequest request, HttpServletResponse response) throws Exception {
         //1.校验验证码
@@ -128,5 +139,17 @@ public class UserServlet extends BaseServlet {
         ImageIO.write(image, "jpg", response.getOutputStream());
 
 
+    }
+
+    public void front(HttpServletRequest request, HttpServletResponse response) throws Exception {
+        User user = service.find().get(0);
+        request.setAttribute("user", user);
+        request.getSession().setAttribute("user", user);
+        List<Website> websites = websiteService.find();
+        if (websites.size() > 0) request.setAttribute("website", websites.get(0));
+        request.setAttribute("skills", skillService.find());
+        request.setAttribute("awards", awardService.find());
+
+        forward("front/user.jsp", request, response);
     }
 }
